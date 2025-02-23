@@ -91,7 +91,7 @@ body {
   background: #18181b;
   font-size: 18px;
   color: #c0c0c7;
-  font-family: "Roboto", sans-serif;
+  font-family: "Gebuk-Regular", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
@@ -181,6 +181,16 @@ strong {
 }
 
 /* - Typography */
+
+@font-face {
+  font-family: "Gebuk-Regular";
+  src: url("/assets/fonts/webfonts/Gebuk-Regular.woff2") format("woff2"),
+       url("/assets/fonts/webfonts/Gebuk-Regular.woff") format("woff"),
+       url("/assets/fonts/webfonts/Gebuk-Regular.ttf") format("truetype"),
+       url("/assets/fonts/webfonts/Gebuk-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 h1,
 h2,
