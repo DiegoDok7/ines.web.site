@@ -26,7 +26,7 @@ const WorkSingle = () => {
                     data-splitting="chars"
                     data-animate="active"
                   >
-                    Astronaut
+                    Fluida
                   </div>
                 </div>
               </div>
@@ -38,12 +38,21 @@ const WorkSingle = () => {
           className="section section-inner m-image-large scrolla-element-anim-1 scroll-animate"
           data-animate="active"
         >
-          <div className="image">
-            <div
-              className="img js-parallax"
-              style={{ backgroundImage: "url(assets/images/started_new.jpg)" }}
-            />
-          </div>
+              <video
+                src="assets/videos/video-fluida.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                }}
+              />
         </div>
         {/* Section Details */}
         <div className="section section-inner m-details">
