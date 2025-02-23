@@ -12,14 +12,13 @@ const WorkSingle = () => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                {/* titles */}
                 <div className="h-titles">
                   <div
                     className="h-subtitle red splitting-text-anim-1 scroll-animate"
                     data-splitting="chars"
                     data-animate="active"
                   >
-                    Photography
+                    Proyecto
                   </div>
                   <div
                     className="h-title splitting-text-anim-2 scroll-animate"
@@ -38,166 +37,30 @@ const WorkSingle = () => {
           className="section section-inner m-image-large scrolla-element-anim-1 scroll-animate"
           data-animate="active"
         >
-              <video
-                src="assets/videos/video-fluida.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                }}
-              />
-        </div>
-        {/* Section Details */}
-        <div className="section section-inner m-details">
-          <div className="container">
-            <div className="details-box">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                  <div className="details-label">
-                    <strong>Client</strong> Envato
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                  <div className="details-label">
-                    <strong>Category</strong> Photography
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                  <div className="details-label">
-                    <strong>Year</strong> 2020
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                  <div className="details-label">
-                    <strong>Website</strong> bslthemes.com
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Section Description */}
-        <div className="section section-inner m-description">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
-                <div className="m-titles">
-                  <div
-                    className="m-title scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    Introduction
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div
-                  className="description-text scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <p>
-                    It is not enough that we build products that function, that
-                    are understandable and usable, we also need to build
-                    products that bring joy and excitement, pleasure and fun,
-                    and, yes, beauty to people’s lives. Creativity is to
-                    discover a question that has never been asked. If one brings
-                    up an idiosyncratic question, the answer he gives will
-                    necessarily be unique as well.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src="assets/images/fluida/imagen1.png" alt="Fluida Main" style={{ width: "100%" }} />
         </div>
         {/* Section Gallery */}
         <div className="section section-inner m-gallery">
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div className="works-item">
-                  <div
-                    className="image scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="img">
-                      <a
-                        href="assets/images/started-n12-920x1080.jpg"
-                        className="has-popup-image"
-                      >
-                        <img
-                          src="assets/images/started-n12-920x1080.jpg"
-                          alt="Image #1"
-                        />
-                      </a>
+              {[
+                "imagen2.png",
+                "imagen3.jpg",
+                "imagen4.png",
+                "imagen5.png"
+              ].map((img, index) => (
+                <div key={index} className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div className="works-item">
+                    <div className="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+                      <div className="img">
+                        <a href={`assets/images/fluida/${img}`} className="has-popup-image">
+                          <img src={`assets/images/fluida/${img}`} alt={`Image #${index + 1}`} />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div className="works-item">
-                  <div
-                    className="image scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="img">
-                      <a
-                        href="assets/images/started-n15-920x1080.jpg"
-                        className="has-popup-image"
-                      >
-                        <img
-                          src="assets/images/started-n15-920x1080.jpg"
-                          alt="Image #2"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Section Description */}
-        <div className="section section-inner m-description">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
-                <div className="m-titles">
-                  <div
-                    className="m-title scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    Result
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div
-                  className="description-text scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <p>
-                    It is not enough that we build products that function, that
-                    are understandable and usable, we also need to build
-                    products that bring joy and excitement, pleasure and fun,
-                    and, yes, beauty to people’s lives. Creativity is to
-                    discover a question that has never been asked. If one brings
-                    up an idiosyncratic question, the answer he gives will
-                    necessarily be unique as well.
-                  </p>
-                  <p>
-                    Creativity is to discover a question that has never been
-                    asked. If one brings up an idiosyncratic question, the
-                    answer he gives will necessarily be unique as well.
-                  </p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
@@ -208,46 +71,16 @@ const WorkSingle = () => {
         >
           <div className="container">
             <Swiper {...mGalleryCarousel} className="swiper-container">
-              <div className="swiper-wrapper">
-                <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/started-n2_4.jpg" alt="Image #1" />
+              {[
+                "imagen6.png",
+                "imagen7.png",
+                "imagen8.png"
+              ].map((img, index) => (
+                <SwiperSlide key={index} className="swiper-slide">
+                  <img src={`assets/images/fluida/${img}`} alt={`Image Carousel #${index + 1}`} />
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/started-n20.jpg" alt="Image #2" />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/started-n14.jpg" alt="Image #3" />
-                </SwiperSlide>
-              </div>
+              ))}
             </Swiper>
-          </div>
-        </div>
-        {/* Section Navigation */}
-        <div className="section section-inner m-page-navigation">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div className="h-titles h-navs">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <span
-                        className="nav-arrow scrolla-element-anim-1 scroll-animate"
-                        data-animate="active"
-                      >
-                        Next Project
-                      </span>
-                      <span
-                        className="h-title splitting-text-anim-2 scroll-animate"
-                        data-splitting="chars"
-                        data-animate="active"
-                      >
-                        Astronaut
-                      </span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
