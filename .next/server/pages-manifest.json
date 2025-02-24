@@ -1,7 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/contacts": "pages/contacts.html",
+  "/fluida": "pages/fluida.html",
+  "/fotografias": "pages/fotografias.html",
+  "/": "pages/index.html",
+  "/sinkope": "pages/sinkope.html",
+  "/lalluna": "pages/lalluna.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/sinkope": "pages/sinkope.js"
+  "/404": "pages/404.html"
 }
