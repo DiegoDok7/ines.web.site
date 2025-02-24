@@ -332,7 +332,7 @@ button:before {
   top: -50%;
   width: 120%;
   height: 120%;
-  background: #eb6165;
+  background: #000000;
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   transform: translate3d(0, -100%, 0) skew(-10deg, -10deg);
@@ -2749,6 +2749,7 @@ hr {
 }
 
 .hero-main-slider .btn.more-btn {
+  background-color: rgb(0, 0, 0);
   display: inline-block;
   border: none;
   font-size: 16px;
@@ -7461,4 +7462,10 @@ body
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.distortion-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }

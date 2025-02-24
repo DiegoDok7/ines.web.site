@@ -17,11 +17,10 @@ const AboutVideo = () => {
           style={{ backgroundImage: "url(assets/images/started-n7.jpg)" }}
         />
         {video && (
-          <iframe
-            className="js-video-iframe"
-            data-src="https://www.youtube.com/embed/Gu6z6kIukgg?showinfo=0&rel=0&autoplay=1"
-            src="https://www.youtube.com/embed/Gu6z6kIukgg?showinfo=0&rel=0&autoplay=1"
-          />
+          <video className="js-video-iframe" controls>
+            <source src="assets/videos/video-presentacion.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         )}
         <div className="play" />
       </div>

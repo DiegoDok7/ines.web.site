@@ -1,15 +1,16 @@
 import Footer from "../src/layout/Footer";
 import Layout from "../src/layout/Layout";
 import PageTitle from "../src/layout/PageTitle";
+
 const Contacts = () => {
   return (
     <Layout>
       <div className="wrapper">
-        {/* Section Started Heading */}
-        <PageTitle title="Contact Us" />
+        {/* Sección de Título */}  
+        <PageTitle title="Contáctame" />
 
-        {/* Section Image Large */}
-        <div
+        {/* Sección de Imagen Grande */}  
+        {/* <div
           className="section section-inner m-image-large scrolla-element-anim-1 scroll-animate"
           data-animate="active"
         >
@@ -19,22 +20,24 @@ const Contacts = () => {
               style={{ backgroundImage: "url(assets/images/contact.jpg)" }}
             />
           </div>
-        </div>
-        {/* Section Contacts Form */}
+        </div> */}
+
+        {/* Sección del Formulario de Contacto */}  
         <div className="section section-inner m-contacts-form">
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                {/* titles */}
+                {/* Títulos */}  
                 <div className="m-titles">
                   <div
                     className="m-title scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    Get in touch
+                    Ponte en contacto
                   </div>
                 </div>
-                {/* contact form */}
+
+                {/* Formulario de contacto */}  
                 <div className="contacts-form">
                   <form id="cform" method="post">
                     <div className="group">
@@ -45,7 +48,7 @@ const Contacts = () => {
                         <input
                           type="text"
                           name="name"
-                          placeholder="Full Name"
+                          placeholder="Nombre Completo"
                         />
                       </div>
                     </div>
@@ -57,7 +60,7 @@ const Contacts = () => {
                         <input
                           type="text"
                           name="email"
-                          placeholder="Email Address"
+                          placeholder="Correo Electrónico"
                         />
                       </div>
                     </div>
@@ -68,7 +71,7 @@ const Contacts = () => {
                       >
                         <textarea
                           name="message"
-                          placeholder="Message"
+                          placeholder="Mensaje"
                           defaultValue={""}
                         />
                       </div>
@@ -78,26 +81,27 @@ const Contacts = () => {
                       data-animate="active"
                     >
                       <a href="#" className="btn">
-                        Send a Message
+                        Enviar Mensaje
                       </a>
                     </div>
                   </form>
                   <div className="alert-success" style={{ display: "none" }}>
-                    <p>Thanks, your message is sent successfully.</p>
+                    <p>Gracias, tu mensaje se ha enviado con éxito.</p>
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                {/* titles */}
+                {/* Títulos */}  
                 <div className="m-titles">
                   <h2
                     className="m-title scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    Contact info
+                    Información de contacto
                   </h2>
                 </div>
-                {/* services */}
+
+                {/* Información de contacto */}  
                 <div className="services-items row">
                   <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div
@@ -107,20 +111,8 @@ const Contacts = () => {
                       <div className="icon">
                         <i aria-hidden="true" className="fas fa-phone-alt" />
                       </div>
-                      <div className="name">Phone:</div>
-                      <div className="text">+1 (800) 123 56 89</div>
-                    </div>
-                  </div>
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div
-                      className="services-item scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
-                      <div className="icon">
-                        <i aria-hidden="true" className="fas fa-at" />
-                      </div>
-                      <div className="name">E-mail:</div>
-                      <div className="text">aster@domain.com</div>
+                      <div className="name">Teléfono:</div>
+                      <div className="text">+34 689471394</div>
                     </div>
                   </div>
                   <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -134,10 +126,22 @@ const Contacts = () => {
                           className="fab fa-font-awesome-flag"
                         />
                       </div>
-                      <div className="name">Location:</div>
+                      <div className="name">Ubicación:</div>
                       <div className="text">
-                        Marollem St. 32, New York, USA.
+                        Benimaclet, 46020 <br/>Valencia - España
                       </div>
+                    </div>
+                  </div>
+                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div
+                      className="services-item scrolla-element-anim-1 scroll-animate"
+                      data-animate="active"
+                    >
+                      <div className="icon">
+                        <i aria-hidden="true" className="fas fa-at" />
+                      </div>
+                      <div className="name">Correo electrónico:</div>
+                      <div className="text">inesmartinezmarti97@gmail.com</div>
                     </div>
                   </div>
                 </div>
@@ -150,4 +154,5 @@ const Contacts = () => {
     </Layout>
   );
 };
+
 export default Contacts;
