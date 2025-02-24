@@ -82,7 +82,7 @@ const Index = () => {
               }}
             >
               <div className="more-bts" style={{ display: "flex", justifyContent: "center" }}>
-                <Link legacyBehavior href="/work-single">
+                <Link legacyBehavior href="/fluida">
                   <a
                     data-splitting=""
                     className="btn more-btn scrolla-element-anim-1"

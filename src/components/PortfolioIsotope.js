@@ -41,239 +41,116 @@ const PortfolioIsotope = () => {
           {/* filter */}
           <div className="filter-links">
             <a onClick={handleFilterKeyChange("*")} data-filter="*">
-              All
+              Todo
             </a>
             <a
-              onClick={handleFilterKeyChange("sorting-print")}
-              data-filter="sorting-print"
+              onClick={handleFilterKeyChange("sorting-arquitectura")}
+              data-filter="sorting-arquitectura"
             >
-              Print
+              Arquitectura y paisajes
             </a>
             <a
-              onClick={handleFilterKeyChange("sorting-photography")}
-              data-filter="sorting-photography"
+              onClick={handleFilterKeyChange("sorting-retrato")}
+              data-filter="sorting-retrato"
             >
-              Photography
+              Retrato
             </a>
             <a
-              onClick={handleFilterKeyChange("sorting-branding")}
-              data-filter="sorting-branding"
+              onClick={handleFilterKeyChange("sorting-producto")}
+              data-filter="sorting-producto"
             >
-              Branding
+              Producto
             </a>
             <a
-              onClick={handleFilterKeyChange("sorting-art")}
-              data-filter="sorting-art"
+              onClick={handleFilterKeyChange("sorting-otros")}
+              data-filter="sorting-otros"
             >
-              Art
+              Otros
             </a>
           </div>
           {/* works items */}
           <div className="works-items row column-2-offset">
-            <div className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-photography">
-              <div className="works-item">
-                <Link legacyBehavior href="/work-single">
-                  <a>
-                    <span className="image">
-                      <span className="img">
-                        <img
-                          src="assets/images/started-n12-900x1170.jpg"
-                          alt="Astronaut"
-                        />
+            {[...Array(17).keys()].map(i => (
+              <div key={i} className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-arquitectura">
+                <div className="works-item">
+                  <Link legacyBehavior href="#">
+                    <a>
+                      <span className="image">
+                        <span className="img">
+                          <img
+                            src={`assets/images/arquitectura/imagen${i + 1}.jpg`}
+                            alt={`Arquitectura ${i + 1}`}
+                          />
+                        </span>
                       </span>
-                    </span>
-                    <span className="desc">
-                      <span
-                        className="category splitting-text-anim-4 scroll-animate"
-                        data-splitting="chars"
-                        data-animate="active"
-                      >
-                        Photography
+                      <span className="desc">
+                        <span
+                          className="category splitting-text-anim-4 scroll-animate"
+                          data-splitting="chars"
+                          data-animate="active"
+                        >
+                          Paisajes
+                        </span>
                       </span>
-                      <span
-                        className="name splitting-text-anim-4 scroll-animate"
-                        data-splitting="words"
-                        data-animate="active"
-                      >
-                        Astronaut
-                      </span>
-                    </span>
-                  </a>
-                </Link>
+                    </a>
+                  </Link>
+                </div>
               </div>
-            </div>
-            <div className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-art">
-              <div className="works-item">
-                <Link legacyBehavior href="/work-single">
-                  <a>
-                    <span className="image">
-                      <span className="img">
-                        <img
-                          src="assets/images/started-n2_4-900x600.jpg"
-                          alt="The Dance"
-                        />
+            ))}
+            {[...Array(8).keys()].map(i => (
+              <div key={i} className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-producto">
+                <div className="works-item">
+                  <Link legacyBehavior href="#">
+                    <a>
+                      <span className="image">
+                        <span className="img">
+                          <img
+                            src={`assets/images/producto/imagen${i + 1}.jpg`}
+                            alt={`Arquitectura ${i + 1}`}
+                          />
+                        </span>
                       </span>
-                    </span>
-                    <span className="desc">
-                      <span
-                        className="category splitting-text-anim-4 scroll-animate"
-                        data-splitting="chars"
-                        data-animate="active"
-                      >
-                        Art
+                      <span className="desc">
+                        <span
+                          className="category splitting-text-anim-4 scroll-animate"
+                          data-splitting="chars"
+                          data-animate="active"
+                        >
+                          Producto
+                        </span>
                       </span>
-                      <span
-                        className="name splitting-text-anim-4 scroll-animate"
-                        data-splitting="words"
-                        data-animate="active"
-                      >
-                        The Dance
-                      </span>
-                    </span>
-                  </a>
-                </Link>
+                    </a>
+                  </Link>
+                </div>
               </div>
-            </div>
-            <div className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-branding">
-              <div
-                className="works-item scrolla-element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <Link legacyBehavior href="/work-single">
-                  <a>
-                    <span className="image">
-                      <span className="img">
-                        <img
-                          src="assets/images/started-n19-900x900.jpg"
-                          alt="Melanin Goddess"
-                        />
+            ))}
+            {[...Array(6).keys()].map(i => (
+              <div key={i} className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-retrato">
+                <div className="works-item">
+                  <Link legacyBehavior href="#">
+                    <a>
+                      <span className="image">
+                        <span className="img">
+                          <img
+                            src={`assets/images/retratos/imagen${i + 1}.jpg`}
+                            alt={`Retrato ${i + 1}`}
+                          />
+                        </span>
                       </span>
-                    </span>
-                    <span className="desc">
-                      <span
-                        className="category splitting-text-anim-4 scroll-animate"
-                        data-splitting="chars"
-                        data-animate="active"
-                      >
-                        Branding
+                      <span className="desc">
+                        <span
+                          className="category splitting-text-anim-4 scroll-animate"
+                          data-splitting="chars"
+                          data-animate="active"
+                        >
+                          Retrato
+                        </span>
                       </span>
-                      <span
-                        className="name splitting-text-anim-4 scroll-animate"
-                        data-splitting="words"
-                        data-animate="active"
-                      >
-                        Melanin Goddess
-                      </span>
-                    </span>
-                  </a>
-                </Link>
+                    </a>
+                  </Link>
+                </div>
               </div>
-            </div>
-            <div className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-branding">
-              <div
-                className="works-item scrolla-element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <Link legacyBehavior href="/work-single">
-                  <a>
-                    <span className="image">
-                      <span className="img">
-                        <img
-                          src="assets/images/started-n15-900x600.jpg"
-                          alt="Blue denim"
-                        />
-                      </span>
-                    </span>
-                    <span className="desc">
-                      <span
-                        className="category splitting-text-anim-4 scroll-animate"
-                        data-splitting="chars"
-                        data-animate="active"
-                      >
-                        Branding
-                      </span>
-                      <span
-                        className="name splitting-text-anim-4 scroll-animate"
-                        data-splitting="words"
-                        data-animate="active"
-                      >
-                        Blue denim
-                      </span>
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-art">
-              <div
-                className="works-item scrolla-element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <Link legacyBehavior href="/work-single">
-                  <a>
-                    <span className="image">
-                      <span className="img">
-                        <img
-                          src="assets/images/started-n14_1-900x1080.jpg"
-                          alt="Negative space"
-                        />
-                      </span>
-                    </span>
-                    <span className="desc">
-                      <span
-                        className="category splitting-text-anim-4 scroll-animate"
-                        data-splitting="chars"
-                        data-animate="active"
-                      >
-                        Art
-                      </span>
-                      <span
-                        className="name splitting-text-anim-4 scroll-animate"
-                        data-splitting="words"
-                        data-animate="active"
-                      >
-                        Negative space
-                      </span>
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-print">
-              <div
-                className="works-item scrolla-element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <Link legacyBehavior href="/work-single">
-                  <a>
-                    <span className="image">
-                      <span className="img">
-                        <img
-                          src="assets/images/work-n3-900x900.jpg"
-                          alt="Ferris Wheel"
-                        />
-                      </span>
-                    </span>
-                    <span className="desc">
-                      <span
-                        className="category splitting-text-anim-4 scroll-animate"
-                        data-splitting="chars"
-                        data-animate="active"
-                      >
-                        Print
-                      </span>
-                      <span
-                        className="name splitting-text-anim-4 scroll-animate"
-                        data-splitting="words"
-                        data-animate="active"
-                      >
-                        Ferris Wheel
-                      </span>
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
