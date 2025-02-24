@@ -1,11 +1,7 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
-  "/about": "pages/about.html",
-  "/api/hello": "pages/api/hello.js",
-  "/contacts": "pages/contacts.html",
-  "/": "pages/index.html",
-  "/works-2-column": "pages/works-2-column.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js",
+  "/work-single": "pages/work-single.js"
 }

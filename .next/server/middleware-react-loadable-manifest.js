@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"works-2-column.jsx -> ../src/components/PortfolioIsotope":{id:6499,files:["static/chunks/391.844967eec0a86544.js","static/chunks/499.29764f2fd3124e67.js"]}};
+self.__REACT_LOADABLE_MANIFEST={}
