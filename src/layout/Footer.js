@@ -11,14 +11,14 @@ const Footer = () => {
                   className="h-subtitle scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Address:
+                  Ubicación:
                 </div>
                 <div
                   className="h-text scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Ridgewood Queens, <br />
-                  NY 11385, USA
+                  Benimaclet, Valencia <br />
+                  46020, España
                 </div>
               </div>
             </div>
@@ -29,14 +29,14 @@ const Footer = () => {
                   className="h-subtitle scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Follow Us:
+                  Sígueme:
                 </div>
               </div>
               {/* social */}
               <div className="social-links footer-social-links">
                 <a
                   target="_blank"
-                  href="https://instagram.com/"
+                  href="https://www.instagram.com/inesmm97/"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
@@ -44,23 +44,7 @@ const Footer = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://facebook.com/"
-                  className="scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <i aria-hidden="true" className="fab fa-facebook-f" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://twitter.com/"
-                  className="scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <i aria-hidden="true" className="fab fa-twitter" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/inesmartinezmarti/"
                   className="scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
@@ -75,16 +59,16 @@ const Footer = () => {
                   className="h-subtitle scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Get in touch:
+                  Contáctame:
                 </div>
                 <div
                   className="h-text scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
                   <p>
-                    asteragency@domain.com
+                    inesmartinezmarti97@gmail.com
                     <br />
-                    +012 (234) 567 78
+                    +34 689 471 394
                   </p>
                 </div>
               </div>
@@ -94,7 +78,7 @@ const Footer = () => {
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                Copyright © 2022 Aster
+                Copyright © 2025 Inés Martínez Martí
               </div>
             </div>
           </div>

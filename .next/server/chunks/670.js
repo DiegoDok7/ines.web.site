@@ -253,191 +253,41 @@ const Header = ()=>{
                                             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
                                                 className: "menu-full",
                                                 children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                        className: `menu-item menu-item-has-children has-children ${subMenuOpened("home")}`,
-                                                        children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                className: "splitting-text-anim-2 words chars splitting",
-                                                                "data-splitting": "chars",
-                                                                href: "#",
-                                                                onClick: (e)=>subMenuClick(e, "home"),
-                                                                children: "Home"
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                                className: "sub-menu",
-                                                                style: subMenuHeight("home"),
-                                                                children: [
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Parallax Slider"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/home-grid-slider",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Grid Slider"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/home-grid-fully-slider",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Blur Horizontal Slider"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/home-portfolio",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Portfolio Grid"
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                ]
-                                                            })
-                                                        ]
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                        className: `menu-item menu-item-has-children has-children ${subMenuOpened("about")}`,
-                                                        children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                        className: "menu-item",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                            legacyBehavior: true,
+                                                            href: "/",
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                 className: "splitting-text-anim-2",
                                                                 "data-splitting": "chars",
-                                                                href: "#",
-                                                                onClick: (e)=>subMenuClick(e, "about"),
-                                                                children: "About"
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                                className: "sub-menu",
-                                                                style: subMenuHeight("about"),
-                                                                children: [
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/about",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "About One"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/about-two",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "About Two"
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                ]
+                                                                children: "Inicio"
                                                             })
-                                                        ]
+                                                        })
                                                     }),
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                                        className: `menu-item menu-item-has-children has-children ${subMenuOpened("Works")}`,
-                                                        children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                className: "splitting-text-anim-2 words chars splitting",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                        className: "menu-item",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                            legacyBehavior: true,
+                                                            href: "/about",
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                                className: "splitting-text-anim-2",
                                                                 "data-splitting": "chars",
-                                                                href: "#",
-                                                                onClick: (e)=>subMenuClick(e, "Works"),
-                                                                children: "Works"
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                                                className: "sub-menu",
-                                                                style: subMenuHeight("Works"),
-                                                                children: [
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/works-2-column",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Works (2 Columns)"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/works-3-column",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Works (3 Columns)"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/works-creative",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Works (Creative)"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/gallery-2-column",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Gallery (2 Columns)"
-                                                                            })
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                                        className: "menu-item",
-                                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                                            legacyBehavior: true,
-                                                                            href: "/gallery-3-column",
-                                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                                className: "splitting-text-anim-1",
-                                                                                "data-splitting": "chars",
-                                                                                children: "Gallery (3 Columns)"
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                ]
+                                                                children: "Sobre m\xed"
                                                             })
-                                                        ]
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                        className: "menu-item",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                            legacyBehavior: true,
+                                                            href: "/works-2-column",
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                                className: "splitting-text-anim-2",
+                                                                "data-splitting": "chars",
+                                                                children: "Fotograf\xeda"
+                                                            })
+                                                        })
                                                     }),
                                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                         className: "menu-item",
@@ -447,19 +297,7 @@ const Header = ()=>{
                                                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                 className: "splitting-text-anim-2",
                                                                 "data-splitting": "chars",
-                                                                children: "Contact"
-                                                            })
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                        className: "menu-item",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                            legacyBehavior: true,
-                                                            href: "/blog",
-                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                                className: "splitting-text-anim-2",
-                                                                "data-splitting": "chars",
-                                                                children: "Blog"
+                                                                children: "Contacto"
                                                             })
                                                         })
                                                     })

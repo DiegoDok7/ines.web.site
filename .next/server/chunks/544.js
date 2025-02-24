@@ -8,12 +8,10 @@ exports.modules = {
 
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Bd": () => (/* binding */ mGalleryCarousel),
-/* harmony export */   "QK": () => (/* binding */ HomeGridSliderProps),
-/* harmony export */   "Zx": () => (/* binding */ HomeGridFullySliderProps),
 /* harmony export */   "nK": () => (/* binding */ jsTestimonials),
 /* harmony export */   "ve": () => (/* binding */ home1SliderProps)
 /* harmony export */ });
+/* unused harmony exports HomeGridSliderProps, HomeGridFullySliderProps, mGalleryCarousel */
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3877);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper__WEBPACK_IMPORTED_MODULE_0__]);
 swiper__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];

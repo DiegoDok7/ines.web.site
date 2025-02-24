@@ -30,15 +30,15 @@ const Footer = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "h-subtitle scrolla-element-anim-1 scroll-animate",
                                         "data-animate": "active",
-                                        children: "Address:"
+                                        children: "Ubicaci\xf3n:"
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "h-text scrolla-element-anim-1 scroll-animate",
                                         "data-animate": "active",
                                         children: [
-                                            "Ridgewood Queens, ",
+                                            "Benimaclet, Valencia ",
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                            "NY 11385, USA"
+                                            "46020, Espa\xf1a"
                                         ]
                                     })
                                 ]
@@ -52,7 +52,7 @@ const Footer = ()=>{
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "h-subtitle scrolla-element-anim-1 scroll-animate",
                                         "data-animate": "active",
-                                        children: "Follow Us:"
+                                        children: "S\xedgueme:"
                                     })
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -60,7 +60,7 @@ const Footer = ()=>{
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             target: "_blank",
-                                            href: "https://instagram.com/",
+                                            href: "https://www.instagram.com/inesmm97/",
                                             className: "scrolla-element-anim-1 scroll-animate",
                                             "data-animate": "active",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
@@ -70,27 +70,7 @@ const Footer = ()=>{
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             target: "_blank",
-                                            href: "https://facebook.com/",
-                                            className: "scrolla-element-anim-1 scroll-animate",
-                                            "data-animate": "active",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                "aria-hidden": "true",
-                                                className: "fab fa-facebook-f"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            target: "_blank",
-                                            href: "https://twitter.com/",
-                                            className: "scrolla-element-anim-1 scroll-animate",
-                                            "data-animate": "active",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                "aria-hidden": "true",
-                                                className: "fab fa-twitter"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            target: "_blank",
-                                            href: "https://linkedin.com/",
+                                            href: "https://www.linkedin.com/in/inesmartinezmarti/",
                                             className: "scrolla-element-anim-1 scroll-animate",
                                             "data-animate": "active",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
@@ -110,16 +90,16 @@ const Footer = ()=>{
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "h-subtitle scrolla-element-anim-1 scroll-animate",
                                         "data-animate": "active",
-                                        children: "Get in touch:"
+                                        children: "Cont\xe1ctame:"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "h-text scrolla-element-anim-1 scroll-animate",
                                         "data-animate": "active",
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                             children: [
-                                                "asteragency@domain.com",
+                                                "inesmartinezmarti97@gmail.com",
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                "+012 (234) 567 78"
+                                                "+34 689 471 394"
                                             ]
                                         })
                                     })
@@ -131,7 +111,7 @@ const Footer = ()=>{
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "copyright-text scrolla-element-anim-1 scroll-animate",
                                 "data-animate": "active",
-                                children: "Copyright \xa9 2022 Aster"
+                                children: "Copyright \xa9 2025 In\xe9s Mart\xednez Mart\xed"
                             })
                         })
                     ]

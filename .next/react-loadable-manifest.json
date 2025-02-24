@@ -1,40 +1,5 @@
 {
-  "gallery-2-column.jsx -> ../src/components/Gallery2Isotope": {
-    "id": 3903,
-    "files": [
-      "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/903.642d8e9a48fde6a6.js"
-    ]
-  },
-  "gallery-3-column.jsx -> ../src/components/Gallery3Isotope": {
-    "id": 5287,
-    "files": [
-      "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/287.f7d008beb85c60ea.js"
-    ]
-  },
-  "home-portfolio.jsx -> ../src/components/PortfolioIsotope": {
-    "id": 6499,
-    "files": [
-      "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/499.29764f2fd3124e67.js"
-    ]
-  },
   "works-2-column.jsx -> ../src/components/PortfolioIsotope": {
-    "id": 6499,
-    "files": [
-      "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/499.29764f2fd3124e67.js"
-    ]
-  },
-  "works-3-column.jsx -> ../src/components/Work3Isotope": {
-    "id": 4994,
-    "files": [
-      "static/chunks/391.844967eec0a86544.js",
-      "static/chunks/994.5d142ad54072c59f.js"
-    ]
-  },
-  "works-creative.jsx -> ../src/components/PortfolioIsotope": {
     "id": 6499,
     "files": [
       "static/chunks/391.844967eec0a86544.js",

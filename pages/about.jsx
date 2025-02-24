@@ -19,7 +19,7 @@ const About = () => {
                     data-splitting="chars"
                     data-animate="active"
                   >
-                    About us
+                    Sobre mí
                   </div>
                 </div>
               </div>
