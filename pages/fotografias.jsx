@@ -13,7 +13,7 @@ const Fotografias = () => {
     <Layout>
       <div className="wrapper">
         {/* Section Started Heading */}
-        <PageTitle title="Projects" />
+        <PageTitle title="Fotografías" />
         {/* Section Works */}
         <PortfolioIsotope />
       </div>

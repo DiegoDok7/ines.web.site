@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"fotografias.jsx -> ../src/components/PortfolioIsotope":{id:6499,files:["static/chunks/391.844967eec0a86544.js","static/chunks/499.ba15ae2d56ddd8c9.js"]}};

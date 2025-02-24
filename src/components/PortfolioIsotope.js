@@ -61,12 +61,6 @@ const PortfolioIsotope = () => {
             >
               Producto
             </a>
-            <a
-              onClick={handleFilterKeyChange("sorting-otros")}
-              data-filter="sorting-otros"
-            >
-              Otros
-            </a>
           </div>
           {/* works items */}
           <div className="works-items row column-2-offset">

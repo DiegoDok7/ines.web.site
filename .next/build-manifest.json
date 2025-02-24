@@ -1,39 +1,104 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/GCOS9l5_22uz55N1raiWU/_buildManifest.js",
+    "static/GCOS9l5_22uz55N1raiWU/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/719-b175b6806e963d87.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/index-c0c6ab1a6c0b956e.js"
+    ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/css/2f49cef1cf3caa65.css",
+      "static/chunks/pages/_app-8d99916874f757be.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/pages/_error-8353112a01355ec2.js"
+    ],
+    "/about": [
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/fb7d5399-4807cc1f5d2d8f46.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/719-b175b6806e963d87.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/about-1a37ffdc80c929da.js"
     ],
     "/belros": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/belros.js"
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/belros-6fe597c227260a93.js"
+    ],
+    "/contacts": [
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/contacts-b00d20338a907e09.js"
+    ],
+    "/fluida": [
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/719-b175b6806e963d87.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/fluida-f4cf5bbec2840260.js"
+    ],
+    "/fotografias": [
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/fotografias-6c5b5aa8bfd97c58.js"
     ],
     "/lalluna": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/lalluna.js"
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/lalluna-5e3c5cfb976affed.js"
+    ],
+    "/saigon": [
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/719-b175b6806e963d87.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/saigon-397e073ba5be841b.js"
+    ],
+    "/sinkope": [
+      "static/chunks/webpack-c821b873814dc632.js",
+      "static/chunks/framework-8c5acb0054140387.js",
+      "static/chunks/main-b482fffd82fa7e1c.js",
+      "static/chunks/239-42f22ef2bf820776.js",
+      "static/chunks/670-694cf39c894ffcc2.js",
+      "static/chunks/pages/sinkope-098f29ade196dd62.js"
     ]
   },
   "ampFirstPages": []
