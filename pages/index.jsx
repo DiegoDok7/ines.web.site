@@ -42,7 +42,7 @@ const Index = () => {
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
                       >
-                        see details
+                        Ver detalles
                       </a>
                     </Link>
                   </div>
@@ -96,7 +96,7 @@ const Index = () => {
                       transition: "0.3s ease-in-out",
                     }}
                   >
-                    See Details
+                    Ver detalles
                   </a>
                 </Link>
               </div>
@@ -149,7 +149,7 @@ const Index = () => {
                       transition: "0.3s ease-in-out",
                     }}
                   >
-                    See Details
+                    Ver detalles
                   </a>
                 </Link>
               </div>
@@ -202,7 +202,7 @@ const Index = () => {
                       transition: "0.3s ease-in-out",
                     }}
                   >
-                    See Details
+                    Ver detalles
                   </a>
                 </Link>
               </div>
