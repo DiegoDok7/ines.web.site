@@ -106,7 +106,7 @@ const PortfolioIsotope = () => {
                         <span className="img">
                           <img
                             src={`assets/images/producto/imagen${i + 1}.jpg`}
-                            alt={`Arquitectura ${i + 1}`}
+                            alt={`producto ${i + 1}`}
                           />
                         </span>
                       </span>
@@ -124,7 +124,7 @@ const PortfolioIsotope = () => {
                 </div>
               </div>
             ))}
-            {[...Array(6).keys()].map(i => (
+            {[...Array(7).keys()].map(i => (
               <div key={i} className="works-col col-xs-12 col-sm-6 col-md-6 col-lg-6 sorting-retrato">
                 <div className="works-item">
                   <Link legacyBehavior href="#">

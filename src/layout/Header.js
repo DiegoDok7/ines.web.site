@@ -55,13 +55,13 @@ const Header = () => {
     <header className="header">
       <div className="header__builder">
         {/* logo */}
-        <div className="logo-image">
+        {/* <div className="logo-image">
           <Link legacyBehavior href="/">
             <a>
               <img src="assets/images/logo.png" alt="logo" />
             </a>
           </Link>
-        </div>
+        </div> */}
         {/* menu btn */}
         <a href="#" className="menu-btn full" onClick={(e) => toggleFun(e)}>
           <span />
