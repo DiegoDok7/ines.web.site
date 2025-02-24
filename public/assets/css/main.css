@@ -3028,7 +3028,7 @@ body .hero-main-slider .swiper-pagination {
 **/
 
 .section.section-inner {
-  margin: 200px 0;
+  margin: 50px 0;
 }
 
 .m-titles {
@@ -3178,7 +3178,6 @@ body .hero-main-slider .swiper-pagination {
 
 .wrapper .section.started-heading {
   margin-top: 250px;
-  margin-bottom: 100px;
 }
 
 .wrapper .section.started-heading + .section.section-inner.m-archive {

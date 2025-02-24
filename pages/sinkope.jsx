@@ -26,25 +26,31 @@ const Sinkope = () => {
                   >
                     Sínkope
                   </div>
+                  <div className="h-description text-center mt-5">
+                    <p>
+                      Cortometraje Sínkope en el que formé parte del equipo como ayudante de producción 
+                      y diseño de la caracterización.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          {/* Video Section */}
+          <div className="section section-inner m-video" style={{ position: "relative", width: "100%", height: "auto" }}>
+            <iframe
+              width="100%"
+              height="500px"
+              src="https://www.youtube.com/embed/MTdcAjTHIqk"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
-        {/* Video Section */}
-        <div className="section section-inner m-video" style={{ position: "relative", width: "100%", height: "auto" }}>
-          <iframe
-            width="100%"
-            height="500px"
-            src="https://www.youtube.com/watch?v=MTdcAjTHIqk"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
         </div>
-      </div>
-      <Footer />
+        <Footer />
     </Layout>
   );
 };

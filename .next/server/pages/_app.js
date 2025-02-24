@@ -1,184 +1,64 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 6531:
+/***/ "./pages/_app.jsx":
+/*!************************!*\
+  !*** ./pages/_app.jsx ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: ./src/layout/Preloader.js
-
-const Preloader = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "preloader",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "centrize full-width",
-            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "vertical-center",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "spinner-logo",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                            src: "assets/images/logo.png",
-                            alt: ""
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "spinner-dot"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "spinner spinner-line"
-                        })
-                    ]
-                })
-            })
-        })
-    });
-};
-/* harmony default export */ const layout_Preloader = (Preloader);
-
-// EXTERNAL MODULE: ./styles/globals.css
-var globals = __webpack_require__(6764);
-;// CONCATENATED MODULE: ./pages/_app.jsx
-
-
-
-
-
-const App = ({ Component , pageProps  })=>{
-    const [loader, setLoader] = (0,external_react_.useState)(true);
-    (0,external_react_.useEffect)(()=>{
-        setTimeout(()=>{
-            setLoader(false);
-        }, 1000);
-    }, []);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "In\xe9s Mart\xednez Mart\xed"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        httpEquiv: "Content-Type",
-                        content: "text/html; charset=utf-8"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        httpEquiv: "X-UA-Compatible",
-                        content: "IE=edge"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "viewport",
-                        content: "width=device-width, initial-scale=1"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "HandheldFriendly",
-                        content: "true"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "author",
-                        content: "beshleyua"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "dns-prefetch",
-                        href: "//fonts.googleapis.com"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CPlayfair+Display%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CMr+De+Haviland&display=swap",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/bootstrap.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/fonts/font-awesome/css/font-awesome.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/magnific-popup.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/splitting.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/swiper.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/vendors/animate.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/main.css",
-                        type: "text/css",
-                        media: "all"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "shortcut icon",
-                        href: "favicon.ico",
-                        type: "image/x-icon"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "icon",
-                        href: "favicon.ico",
-                        type: "image/x-icon"
-                    })
-                ]
-            }),
-            loader && /*#__PURE__*/ jsx_runtime_.jsx(layout_Preloader, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
-        ]
-    });
-};
-/* harmony default export */ const _app = (App);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_layout_Preloader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/layout/Preloader */ \"./src/layout/Preloader.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nconst App = ({ Component , pageProps  })=>{\n    const [loader, setLoader] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(true);\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        setTimeout(()=>{\n            setLoader(false);\n        }, 1000);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"In\\xe9s Mart\\xednez Mart\\xed\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"Content-Type\",\n                        content: \"text/html; charset=utf-8\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"X-UA-Compatible\",\n                        content: \"IE=edge\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"HandheldFriendly\",\n                        content: \"true\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"author\",\n                        content: \"beshleyua\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"dns-prefetch\",\n                        href: \"//fonts.googleapis.com\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 23,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CPlayfair+Display%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CMr+De+Haviland&display=swap\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 24,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/bootstrap.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/fonts/font-awesome/css/font-awesome.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 37,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/magnific-popup.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 43,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/splitting.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 49,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/swiper.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 55,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/animate.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 61,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/main.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 67,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: \"favicon.ico\",\n                        type: \"image/x-icon\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 78,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"favicon.ico\",\n                        type: \"image/x-icon\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                        lineNumber: 79,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, undefined),\n            loader && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_layout_Preloader__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                lineNumber: 81,\n                columnNumber: 18\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n                lineNumber: 82,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\pages\\\\_app.jsx\",\n        lineNumber: 14,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQUE7QUFBNkI7QUFDeUI7QUFDTjtBQUNqQjtBQUMvQixNQUFNSyxNQUFNLENBQUMsRUFBRUMsVUFBUyxFQUFFQyxVQUFTLEVBQUUsR0FBSztJQUN4QyxNQUFNLENBQUNDLFFBQVFDLFVBQVUsR0FBR04sK0NBQVFBLENBQUMsSUFBSTtJQUN6Q0QsZ0RBQVNBLENBQUMsSUFBTTtRQUNkUSxXQUFXLElBQU07WUFDZkQsVUFBVSxLQUFLO1FBQ2pCLEdBQUc7SUFDTCxHQUFHLEVBQUU7SUFFTCxxQkFDRSw4REFBQ1IsMkNBQVFBOzswQkFDUCw4REFBQ0Qsa0RBQUlBOztrQ0FDSCw4REFBQ1c7a0NBQU07Ozs7OztrQ0FDUCw4REFBQ0M7d0JBQUtDLFdBQVU7d0JBQWVDLFNBQVE7Ozs7OztrQ0FDdkMsOERBQUNGO3dCQUFLQyxXQUFVO3dCQUFrQkMsU0FBUTs7Ozs7O2tDQUMxQyw4REFBQ0Y7d0JBQUtHLE1BQUs7d0JBQVdELFNBQVE7Ozs7OztrQ0FDOUIsOERBQUNGO3dCQUFLRyxNQUFLO3dCQUFtQkQsU0FBUTs7Ozs7O2tDQUN0Qyw4REFBQ0Y7d0JBQUtHLE1BQUs7d0JBQVNELFNBQVE7Ozs7OztrQ0FFNUIsOERBQUNFO3dCQUFLQyxLQUFJO3dCQUFlQyxNQUFLOzs7Ozs7a0NBQzlCLDhEQUFDRjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUdSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQU9SLDhEQUFDSjt3QkFBS0MsS0FBSTt3QkFBZ0JDLE1BQUs7d0JBQWNDLE1BQUs7Ozs7OztrQ0FDbEQsOERBQUNIO3dCQUFLQyxLQUFJO3dCQUFPQyxNQUFLO3dCQUFjQyxNQUFLOzs7Ozs7Ozs7Ozs7WUFFMUNYLHdCQUFVLDhEQUFDSiw2REFBU0E7Ozs7OzBCQUNyQiw4REFBQ0U7Z0JBQVcsR0FBR0MsU0FBUzs7Ozs7Ozs7Ozs7O0FBRzlCO0FBQ0EsaUVBQWVGLEdBQUdBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc3Rlci1yZWFjdC8uL3BhZ2VzL19hcHAuanN4PzRjYjMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IHsgRnJhZ21lbnQsIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBQcmVsb2FkZXIgZnJvbSBcIi4uL3NyYy9sYXlvdXQvUHJlbG9hZGVyXCI7XG5pbXBvcnQgXCIuLi9zdHlsZXMvZ2xvYmFscy5jc3NcIjtcbmNvbnN0IEFwcCA9ICh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pID0+IHtcbiAgY29uc3QgW2xvYWRlciwgc2V0TG9hZGVyXSA9IHVzZVN0YXRlKHRydWUpO1xuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIHNldFRpbWVvdXQoKCkgPT4ge1xuICAgICAgc2V0TG9hZGVyKGZhbHNlKTtcbiAgICB9LCAxMDAwKTtcbiAgfSwgW10pO1xuXG4gIHJldHVybiAoXG4gICAgPEZyYWdtZW50PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT5JbsOpcyBNYXJ0w61uZXogTWFydMOtPC90aXRsZT5cbiAgICAgICAgPG1ldGEgaHR0cEVxdWl2PVwiQ29udGVudC1UeXBlXCIgY29udGVudD1cInRleHQvaHRtbDsgY2hhcnNldD11dGYtOFwiIC8+XG4gICAgICAgIDxtZXRhIGh0dHBFcXVpdj1cIlgtVUEtQ29tcGF0aWJsZVwiIGNvbnRlbnQ9XCJJRT1lZGdlXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cIkhhbmRoZWxkRnJpZW5kbHlcIiBjb250ZW50PVwidHJ1ZVwiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJhdXRob3JcIiBjb250ZW50PVwiYmVzaGxleXVhXCIgLz5cbiAgICAgICAgey8qIEZvbnRzICovfVxuICAgICAgICA8bGluayByZWw9XCJkbnMtcHJlZmV0Y2hcIiBocmVmPVwiLy9mb250cy5nb29nbGVhcGlzLmNvbVwiIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG8lM0ExMDAlMkMxMDBpJTJDMzAwJTJDMzAwaSUyQzQwMCUyQzQwMGklMkM1MDAlMkM1MDBpJTJDNzAwJTJDNzAwaSUyQzkwMCUyQzkwMGklN0NQbGF5ZmFpcitEaXNwbGF5JTNBMTAwJTJDMTAwaSUyQzMwMCUyQzMwMGklMkM0MDAlMkM0MDBpJTJDNTAwJTJDNTAwaSUyQzcwMCUyQzcwMGklMkM5MDAlMkM5MDBpJTdDTXIrRGUrSGF2aWxhbmQmZGlzcGxheT1zd2FwXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgey8qIENTUyBTVFlMRVMgKi99XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvdmVuZG9ycy9ib290c3RyYXAuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2ZvbnRzL2ZvbnQtYXdlc29tZS9jc3MvZm9udC1hd2Vzb21lLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvdmVuZG9ycy9tYWduaWZpYy1wb3B1cC5jc3NcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL3ZlbmRvcnMvc3BsaXR0aW5nLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvdmVuZG9ycy9zd2lwZXIuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy92ZW5kb3JzL2FuaW1hdGUuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy9tYWluLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIHsvKltpZiBsdCBJRSA5XT5cblx0XG5cdFxuXHQ8IVtlbmRpZl0qL31cbiAgICAgICAgey8qIEZhdmljb24gKi99XG4gICAgICAgIDxsaW5rIHJlbD1cInNob3J0Y3V0IGljb25cIiBocmVmPVwiZmF2aWNvbi5pY29cIiB0eXBlPVwiaW1hZ2UveC1pY29uXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCJmYXZpY29uLmljb1wiIHR5cGU9XCJpbWFnZS94LWljb25cIiAvPlxuICAgICAgPC9IZWFkPlxuICAgICAge2xvYWRlciAmJiA8UHJlbG9hZGVyIC8+fVxuICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgIDwvRnJhZ21lbnQ+XG4gICk7XG59O1xuZXhwb3J0IGRlZmF1bHQgQXBwO1xuIl0sIm5hbWVzIjpbIkhlYWQiLCJGcmFnbWVudCIsInVzZUVmZmVjdCIsInVzZVN0YXRlIiwiUHJlbG9hZGVyIiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwibG9hZGVyIiwic2V0TG9hZGVyIiwic2V0VGltZW91dCIsInRpdGxlIiwibWV0YSIsImh0dHBFcXVpdiIsImNvbnRlbnQiLCJuYW1lIiwibGluayIsInJlbCIsImhyZWYiLCJ0eXBlIiwibWVkaWEiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.jsx\n");
 
 /***/ }),
 
-/***/ 6764:
+/***/ "./src/layout/Preloader.js":
+/*!*********************************!*\
+  !*** ./src/layout/Preloader.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Preloader = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"preloader\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"centrize full-width\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"vertical-center\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"spinner-logo\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            src: \"assets/images/logo.png\",\n                            alt: \"\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\src\\\\layout\\\\Preloader.js\",\n                            lineNumber: 7,\n                            columnNumber: 13\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"spinner-dot\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\src\\\\layout\\\\Preloader.js\",\n                            lineNumber: 8,\n                            columnNumber: 13\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"spinner spinner-line\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\src\\\\layout\\\\Preloader.js\",\n                            lineNumber: 9,\n                            columnNumber: 13\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\src\\\\layout\\\\Preloader.js\",\n                    lineNumber: 6,\n                    columnNumber: 11\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\src\\\\layout\\\\Preloader.js\",\n                lineNumber: 5,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\src\\\\layout\\\\Preloader.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\Developeer\\\\Documents\\\\Diego\\\\Trabajo\\\\Proyectos\\\\React Native\\\\inesmartinez.web.site\\\\src\\\\layout\\\\Preloader.js\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Preloader);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGF5b3V0L1ByZWxvYWRlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTtBQUFBLE1BQU1BLFlBQVksSUFBTTtJQUN0QixxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTtrQkFDYiw0RUFBQ0Q7WUFBSUMsV0FBVTtzQkFDYiw0RUFBQ0Q7Z0JBQUlDLFdBQVU7MEJBQ2IsNEVBQUNEO29CQUFJQyxXQUFVOztzQ0FDYiw4REFBQ0M7NEJBQUlDLEtBQUk7NEJBQXlCQyxLQUFJOzs7Ozs7c0NBQ3RDLDhEQUFDSjs0QkFBSUMsV0FBVTs7Ozs7O3NDQUNmLDhEQUFDRDs0QkFBSUMsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBTTNCO0FBQ0EsaUVBQWVGLFNBQVNBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc3Rlci1yZWFjdC8uL3NyYy9sYXlvdXQvUHJlbG9hZGVyLmpzP2E3OWEiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUHJlbG9hZGVyID0gKCkgPT4ge1xyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT1cInByZWxvYWRlclwiPlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNlbnRyaXplIGZ1bGwtd2lkdGhcIj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInZlcnRpY2FsLWNlbnRlclwiPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzcGlubmVyLWxvZ29cIj5cclxuICAgICAgICAgICAgPGltZyBzcmM9XCJhc3NldHMvaW1hZ2VzL2xvZ28ucG5nXCIgYWx0PVwiXCIgLz5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzcGlubmVyLWRvdFwiIC8+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Bpbm5lciBzcGlubmVyLWxpbmVcIiAvPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufTtcclxuZXhwb3J0IGRlZmF1bHQgUHJlbG9hZGVyO1xyXG4iXSwibmFtZXMiOlsiUHJlbG9hZGVyIiwiZGl2IiwiY2xhc3NOYW1lIiwiaW1nIiwic3JjIiwiYWx0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/layout/Preloader.js\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 6689:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -186,11 +66,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -201,7 +84,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(6531));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.jsx"));
 module.exports = __webpack_exports__;
 
 })();

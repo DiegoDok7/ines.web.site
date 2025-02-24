@@ -41,11 +41,11 @@ const Header = () => {
     document.querySelector("body").classList.remove("no-scroll");
   }, []);
   const subMenuClick = (event, value) => {
-      setLinkElements(value == linkElements ? null : value);
-      const target = event.target,
-        ul = target.closest(".menu-full");
-      setHeight(ul.offsetHeight + 20);
-    },
+    setLinkElements(value == linkElements ? null : value);
+    const target = event.target,
+      ul = target.closest(".menu-full");
+    setHeight(ul.offsetHeight + 20);
+  },
     subMenuHeight = (value) =>
       value == linkElements
         ? { maxHeight: `${height}px` }
@@ -75,7 +75,7 @@ const Header = () => {
                   {/* menu full */}
                   <div className="menu-full">
                     <ul className="menu-full">
-                    <li className="menu-item">
+                      <li className="menu-item">
                         <Link legacyBehavior href="/">
                           <a
                             className="splitting-text-anim-2"
@@ -104,6 +104,72 @@ const Header = () => {
                             Fotografía
                           </a>
                         </Link>
+                      </li>
+                      <li
+                        className={`menu-item menu-item-has-children has-children ${subMenuOpened(
+                          "home"
+                        )}`}
+                      >
+                        <a
+                          className="splitting-text-anim-2 words chars splitting"
+                          data-splitting="chars"
+                          href="#"
+                          onClick={(e) => subMenuClick(e, "home")}
+                        >
+                          Proyectos
+                        </a>
+                        <ul className="sub-menu" style={subMenuHeight("home")}>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/fluida">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Fluida
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/lalluna">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Ron Legendario
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/sinkope">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Sínkope
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/saigon">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                Saigón
+                              </a>
+                            </Link>
+                          </li>
+                          <li className="menu-item">
+                            <Link legacyBehavior href="/belros">
+                              <a
+                                className="splitting-text-anim-1"
+                                data-splitting="chars"
+                              >
+                                El sabor del cine
+                              </a>
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
                       <li className="menu-item">
                         <Link legacyBehavior href="/contacts">

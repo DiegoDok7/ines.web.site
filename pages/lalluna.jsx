@@ -24,7 +24,14 @@ const Lalluna = () => {
                     data-splitting="chars"
                     data-animate="active"
                   >
-                    La lluna
+                    Ron Legendario "Ronsse"
+                  </div>
+                  <div className="h-description text-center mt-5">
+                    <p>
+                      Campaña realizada para la marca de Ron Legendario. En ella se pretende disfrutar del buen tardeo español junto a las ganas de cuidarse con su nuevo Ron fresa. 
+                      Premios: Long List en "La Lluna"
+  . 
+                    </p>
                   </div>
                 </div>
               </div>
