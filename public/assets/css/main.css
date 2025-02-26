@@ -332,7 +332,6 @@ button:before {
   top: -50%;
   width: 120%;
   height: 120%;
-  background: #000000;
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   transform: translate3d(0, -100%, 0) skew(-10deg, -10deg);

@@ -41,6 +41,15 @@ const Index = () => {
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
+                        style={{
+                          backgroundColor: "#ffffff",
+                          color: "black",
+                          padding: "12px 24px",
+                          fontSize: "18px",
+                          borderRadius: "8px",
+                          textDecoration: "none",
+                          transition: "0.3s ease-in-out",
+                        }}
                       >
                         Ver detalles
                       </a>
@@ -87,7 +96,7 @@ const Index = () => {
                     data-splitting=""
                     className="btn more-btn scrolla-element-anim-1"
                     style={{
-                      backgroundColor: "#ff6600",
+                      backgroundColor: "#000000",
                       color: "white",
                       padding: "12px 24px",
                       fontSize: "18px",
@@ -140,7 +149,7 @@ const Index = () => {
                     data-splitting=""
                     className="btn more-btn scrolla-element-anim-1"
                     style={{
-                      backgroundColor: "#ff6600",
+                      backgroundColor: "#000000",
                       color: "white",
                       padding: "12px 24px",
                       fontSize: "18px",
@@ -193,8 +202,8 @@ const Index = () => {
                     data-splitting=""
                     className="btn more-btn scrolla-element-anim-1"
                     style={{
-                      backgroundColor: "#ff6600",
-                      color: "white",
+                      backgroundColor: "#ffffff",
+                      color: "black",
                       padding: "12px 24px",
                       fontSize: "18px",
                       borderRadius: "8px",
