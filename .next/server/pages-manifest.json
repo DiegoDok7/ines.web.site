@@ -1,16 +1,6 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
-  "/api/hello": "pages/api/hello.js",
-  "/about": "pages/about.html",
-  "/belros": "pages/belros.html",
-  "/contacts": "pages/contacts.html",
-  "/fluida": "pages/fluida.html",
-  "/fotografias": "pages/fotografias.html",
-  "/": "pages/index.html",
-  "/lalluna": "pages/lalluna.html",
-  "/saigon": "pages/saigon.html",
-  "/sinkope": "pages/sinkope.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
