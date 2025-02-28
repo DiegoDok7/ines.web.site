@@ -1,144 +1,148 @@
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import Footer from "../src/layout/Footer";
 import Layout from "../src/layout/Layout";
 import PageTitle from "../src/layout/PageTitle";
 
 const Contacts = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_4r65vi7", // Reemplaza con tu Service ID
+        "template_7eifh2d", // Reemplaza con tu Template ID
+        formData,
+        "H5mpOgQYUdvLjBhwp" // Reemplaza con tu Public Key de EmailJS
+      )
+      .then(
+        (response) => {
+          console.log("Mensaje enviado con éxito:", response);
+          setSuccess(true);
+          setError(false);
+          setFormData({ name: "", email: "", message: "" }); // Resetear el formulario
+        },
+        (err) => {
+          console.error("Error al enviar el mensaje:", err);
+          setSuccess(false);
+          setError(true);
+        }
+      );
+  };
+
   return (
     <Layout>
       <div className="wrapper">
-        {/* Sección de Título */}  
         <PageTitle title="Contáctame" />
 
-        {/* Sección de Imagen Grande */}  
-        {/* <div
-          className="section section-inner m-image-large scrolla-element-anim-1 scroll-animate"
-          data-animate="active"
-        >
-          <div className="image">
-            <div
-              className="img js-parallax"
-              style={{ backgroundImage: "url(assets/images/contact.jpg)" }}
-            />
-          </div>
-        </div> */}
-
-        {/* Sección del Formulario de Contacto */}  
         <div className="section section-inner m-contacts-form">
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                {/* Títulos */}  
+              <div className="col-lg-6">
                 <div className="m-titles">
-                  <div
-                    className="m-title scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    Ponte en contacto
-                  </div>
+                  <div className="m-title">Ponte en contacto</div>
                 </div>
 
-                {/* Formulario de contacto */}  
                 <div className="contacts-form">
-                  <form id="cform" method="post">
+                  <form onSubmit={handleSubmit}>
                     <div className="group">
-                      <div
-                        className="value scrolla-element-anim-1 scroll-animate"
-                        data-animate="active"
-                      >
+                      <div className="value">
                         <input
                           type="text"
                           name="name"
                           placeholder="Nombre Completo"
+                          value={formData.name}
+                          onChange={handleChange}
+                          required
                         />
                       </div>
                     </div>
                     <div className="group">
-                      <div
-                        className="value scrolla-element-anim-1 scroll-animate"
-                        data-animate="active"
-                      >
+                      <div className="value">
                         <input
-                          type="text"
+                          type="email"
                           name="email"
                           placeholder="Correo Electrónico"
+                          value={formData.email}
+                          onChange={handleChange}
+                          required
                         />
                       </div>
                     </div>
                     <div className="group full">
-                      <div
-                        className="value scrolla-element-anim-1 scroll-animate"
-                        data-animate="active"
-                      >
+                      <div className="value">
                         <textarea
                           name="message"
                           placeholder="Mensaje"
-                          defaultValue={""}
+                          value={formData.message}
+                          onChange={handleChange}
+                          required
                         />
                       </div>
                     </div>
-                    <div
-                      className="submit scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
-                      <a href="#" className="btn">
+                    <div className="submit">
+                      <button type="submit" className="btn">
                         Enviar Mensaje
-                      </a>
+                      </button>
                     </div>
                   </form>
-                  <div className="alert-success" style={{ display: "none" }}>
-                    <p>Gracias, tu mensaje se ha enviado con éxito.</p>
-                  </div>
+
+                  {success && (
+                    <div className="alert-success">
+                      <p>Gracias, tu mensaje se ha enviado con éxito.</p>
+                    </div>
+                  )}
+                  {error && (
+                    <div className="alert-danger">
+                      <p>Error al enviar el mensaje. Inténtalo de nuevo.</p>
+                    </div>
+                  )}
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                {/* Títulos */}  
-                <div className="m-titles">
-                  <h2
-                    className="m-title scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    Información de contacto
-                  </h2>
-                </div>
 
-                {/* Información de contacto */}  
+              <div className="col-lg-6">
+                <div className="m-titles">
+                  <h2 className="m-title">Información de contacto</h2>
+                </div>
                 <div className="services-items row">
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div
-                      className="services-item scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
+                  <div className="services-col col-lg-4">
+                    <div className="services-item">
                       <div className="icon">
-                        <i aria-hidden="true" className="fas fa-phone-alt" />
+                        <i className="fas fa-phone-alt" />
                       </div>
                       <div className="name">Teléfono:</div>
                       <div className="text">+34 689471394</div>
                     </div>
                   </div>
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div
-                      className="services-item scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
+                  <div className="services-col col-lg-4">
+                    <div className="services-item">
                       <div className="icon">
-                        <i
-                          aria-hidden="true"
-                          className="fab fa-font-awesome-flag"
-                        />
+                        <i className="fab fa-font-awesome-flag" />
                       </div>
                       <div className="name">Ubicación:</div>
                       <div className="text">
-                        Benimaclet, 46020 <br/>Valencia - España
+                        Benimaclet, 46020 <br />
+                        Valencia - España
                       </div>
                     </div>
                   </div>
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div
-                      className="services-item scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
+                  <div className="services-col col-lg-4">
+                    <div className="services-item">
                       <div className="icon">
-                        <i aria-hidden="true" className="fas fa-at" />
+                        <i className="fas fa-at" />
                       </div>
                       <div className="name">Correo electrónico:</div>
                       <div className="text">inesmartinezmarti97@gmail.com</div>
