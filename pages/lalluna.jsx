@@ -28,9 +28,7 @@ const Lalluna = () => {
                   </div>
                   <div className="h-description text-center mt-5">
                     <p>
-                      Campaña realizada para la marca de Ron Legendario. En ella se pretende disfrutar del buen tardeo español junto a las ganas de cuidarse con su nuevo Ron fresa. 
-                      Premios: Long List en "La Lluna"
-  . 
+                      Como <strong>creativa publicista</strong> en la campaña para <strong>Ron Legendario</strong>, tuve la oportunidad de trabajar en la fusión perfecta entre el icónico ron fresa y la cultura del tardeo español, integrando además el concepto de "cuidarse a uno mismo". Mi enfoque consistió en desarrollar una narrativa visual y conceptual que reflejara el equilibrio entre disfrutar del momento y mantener un estilo de vida saludable. A través de una campaña fresca y vibrante, destacamos cómo <strong>Ron Legendario</strong> puede ser parte de un tardeo relajado y consciente, sin perder la esencia de disfrutar de buenos momentos con amigos.
                     </p>
                   </div>
                 </div>

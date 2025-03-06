@@ -28,6 +28,11 @@ const Fluida = () => {
                   >
                     Fluida
                   </div>
+                  <div className="h-description text-center mt-5">
+                    <p>
+                      Como <strong>directora de arte y diseñadora gráfica</strong> en el proyecto de la portada del disco <strong>Fluida</strong>, busqué crear una imagen que capturara la esencia de la música, jugando con la fluidez y la textura. Las letras, hechas a mano, simbolizan la improvisación y la libertad, reflejando la ligereza y el dinamismo del disco. Este uso de colores no solo aporta fuerza a la imagen, sino que también transmite una sensación envolvente y sensorial, destacando la conexión entre la música y la libertad visual.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

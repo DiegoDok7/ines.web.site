@@ -30,8 +30,15 @@ const Saigon = () => {
                   </div>
                   <div className="h-description text-center mt-5">
                     <p>
-                      Rebranding del restaurante Saigon, donde he diseñado desde cero los logos, la carta, 
-                      los platos, la tarjeta de visita y las bolsas.
+                      Recientemente, tuve la oportunidad de llevar a cabo un <em>rebranding</em> completo para <strong>Saigon Vietnamese Cuisine</strong>, una marca que buscaba renovar su imagen y adaptarse a las nuevas tendencias del mercado. El objetivo principal fue mantener la esencia y los valores de la marca, pero con un enfoque más fresco, moderno y alineado con las expectativas de su audiencia.
+                    </p>
+
+                    <p>
+                      Rediseñé el logotipo, elegí una paleta de colores más dinámica y actualicé los tipografías para lograr una imagen más coherente y profesional. Además, trabajé en el desarrollo de nuevos elementos visuales que reflejan la evolución de la marca, sin perder la conexión con su historia y orígenes.
+                    </p>
+
+                    <p>
+                      El resultado final fue una imagen renovada que mantiene la autenticidad de la marca, pero transmite una mayor cercanía y modernidad. Este <em>rebranding</em> no solo mejoró la percepción visual, sino que también reforzó la identidad de la marca, ayudando a conectar mejor con su audiencia y destacar en un mercado competitivo.
                     </p>
                   </div>
                 </div>

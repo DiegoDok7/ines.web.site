@@ -28,8 +28,10 @@ const Belros = () => {
                   </div>
                   <div className="h-description text-center mt-5">
                     <p>
-                     El sabor del cine nace como proyecto colaborativo con el estudio Paraiso. Pretende fusionar la experiencia de ir al cine con la de disfrutar de unos buenos snacks gracias a Belros. 
-                     Dirección de arte, diseño y fotografía de producto
+                      <strong>El Sabor del Cine</strong> nace como un proyecto colaborativo entre el estudio Paraíso y Belros, con el objetivo de fusionar la magia del cine con la deliciosa experiencia de disfrutar de unos snacks únicos. En este proyecto, desempeñé el rol de <strong>directora de arte</strong>, donde me encargué de conceptualizar y crear una experiencia visual que transmitiera la esencia del cine y la indulgencia de los snacks de una manera innovadora.
+                    </p>
+                    <p>
+                      Mi trabajo en diseño consistió en crear una estética coherente, cuidando cada detalle para que la marca y los productos estuvieran perfectamente alineados con la atmósfera que queríamos transmitir. Además, me encargué de la <strong>fotografía de producto</strong>, llevando a cabo la dirección fotográfica para resaltar las texturas y colores de los snacks, asegurando que la imagen final fuera no solo atractiva, sino apetecible y memorable.
                     </p>
                   </div>
                 </div>

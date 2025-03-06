@@ -28,8 +28,7 @@ const Sinkope = () => {
                   </div>
                   <div className="h-description text-center mt-5">
                     <p>
-                      Cortometraje Sínkope en el que formé parte del equipo como ayudante de producción 
-                      y diseño de la caracterización.
+                      Tuve el placer de participar en el cortometraje <strong>Sínkope</strong>, donde desempeñé varios roles clave en su producción. Como <strong>ayudante de producción</strong>, me encargué de coordinar las actividades en el set, asegurando que todo el equipo y los recursos estuvieran organizados y en funcionamiento. Además, colaboré estrechamente con el equipo de <strong>fotografía</strong>, asistiendo en la preparación de los escenarios, iluminación y captura de las mejores tomas. También formé parte del equipo de <strong>arte y caracterización</strong>, encargándome de los detalles de maquillaje y vestuario, para garantizar que los personajes reflejaran la visión del director. Esta experiencia me permitió trabajar de manera colaborativa y desarrollar una comprensión integral de la producción audiovisual.
                     </p>
                   </div>
                 </div>
@@ -49,8 +48,8 @@ const Sinkope = () => {
             ></iframe>
           </div>
         </div>
-        </div>
-        <Footer />
+      </div>
+      <Footer />
     </Layout>
   );
 };
