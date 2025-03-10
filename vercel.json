@@ -6,5 +6,5 @@
         "use": "@vercel/next"
       }
     ],
-    "buildCommand": "chmod -R 755 . && npm run build"
+    "buildCommand":     "node -v && npm -v && npm clean-install && next build"
   }
