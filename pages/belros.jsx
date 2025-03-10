@@ -24,7 +24,7 @@ const Belros = () => {
                     data-splitting="chars"
                     data-animate="active"
                   >
-                    El sabor del cine
+                    El sabor del cinea
                   </div>
                   <div className="h-description text-center mt-5">
                     <p>
