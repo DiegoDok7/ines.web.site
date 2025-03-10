@@ -6,5 +6,5 @@
         "use": "@vercel/next"
       }
     ],
-    "installCommand": "npm ci"
+    "buildCommand": "chmod -R 755 . && npm run build"
   }
